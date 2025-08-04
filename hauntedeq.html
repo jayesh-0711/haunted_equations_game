@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted Equations</title>
+    <link rel="stylesheet" href="stylehauntedeq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Fredoka+One&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+   
+    <div class="haunted-bg"></div>
+    <div class="haunted-overlay"></div>
+    <div class="mist"></div>
+    
+    <div class="bat" style="left: 10%; top: 20%; animation-duration: 15s;">🦇</div>
+    <div class="bat" style="left: 30%; top: 70%; animation-duration: 20s;">🦇</div>
+    <div class="bat" style="left: 70%; top: 40%; animation-duration: 25s;">🦇</div>
+    
+    <div class="floating-ghost" style="left: 5%; top: 10%; animation-duration: 18s;">👻</div>
+    <div class="floating-ghost" style="left: 80%; top: 60%; animation-duration: 22s;">👻</div>
+    <div class="floating-ghost" style="left: 40%; top: 30%; animation-duration: 25s;">👻</div>
+    
+    
+    <div class="ghost-cursor">👻</div>
+    
+    <div id="start-page">
+        <h1>HAUNTED EQUATIONS</h1>
+        <p>Solve if you dare...</p>
+        <div class="triangle-btn" id="play-button"></div>
+    </div>
+    
+    <div id="game-page">
+        <p id="timer">TIME: 60</p>
+        <p id="score">SCORE: 0</p>
+        
+        <div class="game-content">
+            <div class="equation-container" id="equation">3 + 5 = ?</div>
+            <div class="student" id="student">👨</div>
+            <div class="answer-input-container">
+                <input type="number" class="answer-input" id="answer-input" placeholder="Answer">
+                <div class="buttons-container">
+                    <button class="game-button" id="submit-button">SUBMIT</button>
+                    <button class="game-button" id="restart-button">RESTART</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script src="scripthauntedeq.js"></script>
+
+
+</body>
+</html>
